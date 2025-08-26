@@ -1,23 +1,35 @@
 package co.com.bancolombia.r2dbc;
 
-import co.com.bancolombia.r2dbc.helper.ReactiveAdapterOperations;
-import org.reactivecommons.utils.ObjectMapper;
+import co.com.bancolombia.model.user.User;
+import co.com.bancolombia.model.user.gateways.UserRepository;
+import co.com.bancolombia.r2dbc.entities.UserEntity;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
+import reactor.core.publisher.Mono;
 
 @Repository
-public class MyReactiveRepositoryAdapter extends ReactiveAdapterOperations<
-    Object/* change for domain model */,
-    Object/* change for adapter model */,
-    String,
-    MyReactiveRepository
-> {
-    public MyReactiveRepositoryAdapter(MyReactiveRepository repository, ObjectMapper mapper) {
-        /**
-         *  Could be use mapper.mapBuilder if your domain model implement builder pattern
-         *  super(repository, mapper, d -> mapper.mapBuilder(d,ObjectModel.ObjectModelBuilder.class).build());
-         *  Or using mapper.map with the class of the object model
-         */
-        super(repository, mapper, d -> mapper.map(d, Object.class/* change for domain model */));
+@RequiredArgsConstructor
+public class MyReactiveRepositoryAdapter implements UserRepository {
+    private final MyReactiveRepository  myReactiveRepository;
+
+
+    @Override
+    public Mono<User> saveUser(User user) {
+        UserEntity userEntity = new UserEntity();
+        userEntity.setName(user.getName());
+        userEntity.setLastName(user.getLastName());
+        userEntity.setDateOfBirth(user.getDateOfBirth());
+        userEntity.setAddress(user.getAddress());
+        userEntity.setPhoneNumber(user.getPhoneNumber());
+        userEntity.setEmail(user.getEmail());
+        userEntity.setBaseSalary(user.getBaseSalary());
+
+        return myReactiveRepository.save(userEntity)
+                .map(saved -> user);
     }
 
+    @Override
+    public Mono<Boolean> existsUserByEmail(String email) {
+        return myReactiveRepository.existsByEmail(email);
+    }
 }

@@ -24,7 +24,8 @@ cors:
   allowed-origins: "http://localhost:4200,http://localhost:8080"
 adapters:
   r2dbc:
-    host: localhost
-    username: postgres
+    host: "localhost"
+    port: 5432
+    username: "postgres"
     password: 123456
-    database: autenticacion
+    database: "autenticacion"
