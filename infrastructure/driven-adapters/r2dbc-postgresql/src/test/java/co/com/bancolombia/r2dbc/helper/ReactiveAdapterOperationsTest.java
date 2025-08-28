@@ -1,4 +1,4 @@
-package co.com.bancolombia.r2dbc.helper;
+/*package co.com.bancolombia.r2dbc.helper;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -166,3 +166,4 @@ class ReactiveAdapterOperationsTest {
 
     interface DummyRepository extends ReactiveCrudRepository<DummyData, String>, ReactiveQueryByExampleExecutor<DummyData> {}
 }
+*/

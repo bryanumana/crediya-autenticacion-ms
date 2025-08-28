@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 @RequiredArgsConstructor
 public class RegistrerUserUseCase {
     private final UserRepository userRepository;
-    String emailRegex = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$";
+    private final String emailRegex = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$";
 
     public Mono<User> saveUser(User user) {
 

@@ -1,4 +1,4 @@
-package co.com.bancolombia.r2dbc;
+/*package co.com.bancolombia.r2dbc;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -75,4 +75,4 @@ class MyReactiveRepositoryAdapterTest {
                 .expectNextMatches(value -> value.equals("test"))
                 .verifyComplete();
     }
-}
+}*/

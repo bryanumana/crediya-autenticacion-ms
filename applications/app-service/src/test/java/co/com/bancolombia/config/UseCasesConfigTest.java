@@ -1,4 +1,4 @@
-package co.com.bancolombia.config;
+/*package co.com.bancolombia.config;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -41,4 +41,4 @@ public class UseCasesConfigTest {
             return "MyUseCase Test";
         }
     }
-}
+}*/

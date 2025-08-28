@@ -22,4 +22,7 @@ public class User {
     private String phoneNumber;
     private String email;
     private Double baseSalary;
+
+    public User(Object o, String john, String doe, String mail, double v) {
+    }
 }

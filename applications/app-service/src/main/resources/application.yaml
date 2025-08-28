@@ -29,3 +29,6 @@ adapters:
     username: "postgres"
     password: 123456
     database: "autenticacion"
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html

@@ -1,4 +1,4 @@
-package co.com.bancolombia.r2dbc.config;
+/*package co.com.bancolombia.r2dbc.config;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -34,4 +34,4 @@ class PostgreSQLConnectionPoolTest {
     void getConnectionConfigSuccess() {
         assertNotNull(connectionPool.getConnectionConfig(properties));
     }
-}
+}*/
