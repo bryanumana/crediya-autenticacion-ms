@@ -1,4 +1,4 @@
-package co.com.bancolombia.api.dto;
+/*package co.com.bancolombia.api.dto;
 
 import co.com.bancolombia.model.user.User;
 import co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase;
@@ -27,3 +27,4 @@ public class UserController {
                 .doOnSuccess(u -> log.info("Usuario registrado correctamente: {}"))
                 .doOnError(e -> log.info("Error registrando usuario: {}"));}
 }
+*/
