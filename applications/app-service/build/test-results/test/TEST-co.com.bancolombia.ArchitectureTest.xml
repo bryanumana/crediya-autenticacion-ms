@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.com.bancolombia.ArchitectureTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-08-28T22:44:26.334Z" hostname="DONALDO" time="0.418">
+  <properties/>
+  <testcase name="domainClassesShouldNotBeNamedWithToolNames()" classname="co.com.bancolombia.ArchitectureTest" time="0.058"/>
+  <testcase name="domainClassesShouldNotHaveFieldsNamedWithToolNames()" classname="co.com.bancolombia.ArchitectureTest" time="0.015"/>
+  <testcase name="useCaseFinalFields()" classname="co.com.bancolombia.ArchitectureTest" time="0.004"/>
+  <testcase name="beansShouldOnlyHaveFinalFields()" classname="co.com.bancolombia.ArchitectureTest" time="0.01"/>
+  <testcase name="reactiveFlowsShouldUseAwsAsyncClients()" classname="co.com.bancolombia.ArchitectureTest" time="0.032"/>
+  <testcase name="domainClassesShouldNotBeNamedWithTechSuffixes()" classname="co.com.bancolombia.ArchitectureTest" time="0.002"/>
+  <system-out><![CDATA[17:44:23.686 [Test worker] INFO com.tngtech.archunit.core.PluginLoader -- Detected Java version 21.0.7
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

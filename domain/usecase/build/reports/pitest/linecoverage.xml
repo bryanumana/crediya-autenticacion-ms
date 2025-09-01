@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage>
+<block classname='co.com.bancolombia.model.user.User$UserBuilder' method='name(Ljava/lang/String;)Lco/com/bancolombia/model/user/User$UserBuilder;' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='saveUser(Lco/com/bancolombia/model/user/User;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='saveUser(Lco/com/bancolombia/model/user/User;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='saveUser(Lco/com/bancolombia/model/user/User;)Lreactor/core/publisher/Mono;' number='2'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='saveUser(Lco/com/bancolombia/model/user/User;)Lreactor/core/publisher/Mono;' number='3'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='saveUser(Lco/com/bancolombia/model/user/User;)Lreactor/core/publisher/Mono;' number='4'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='saveUser(Lco/com/bancolombia/model/user/User;)Lreactor/core/publisher/Mono;' number='5'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.gateways.UserRepository$MockitoMock$7eZPBgS1' method='&lt;init&gt;()V' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.gateways.UserRepository$MockitoMock$7eZPBgS1' method='&lt;init&gt;()V' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='lambda$saveUser$0(Lco/com/bancolombia/model/user/User;Ljava/lang/Boolean;)Lreactor/core/publisher/Mono;' number='6'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='lambda$saveUser$0(Lco/com/bancolombia/model/user/User;Ljava/lang/Boolean;)Lreactor/core/publisher/Mono;' number='5'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.gateways.UserRepository$MockitoMock$7eZPBgS1' method='existsUserByEmail(Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='lambda$saveUser$0(Lco/com/bancolombia/model/user/User;Ljava/lang/Boolean;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.gateways.UserRepository$MockitoMock$7eZPBgS1' method='existsUserByEmail(Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User$UserBuilder' method='baseSalary(Ljava/lang/Double;)Lco/com/bancolombia/model/user/User$UserBuilder;' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='lambda$saveUser$0(Lco/com/bancolombia/model/user/User;Ljava/lang/Boolean;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User$UserBuilder' method='id(Ljava/lang/String;)Lco/com/bancolombia/model/user/User$UserBuilder;' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User$UserBuilder' method='lastName(Ljava/lang/String;)Lco/com/bancolombia/model/user/User$UserBuilder;' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='&lt;init&gt;(Lco/com/bancolombia/model/user/gateways/UserRepository;)V' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='&lt;init&gt;(Lco/com/bancolombia/model/user/gateways/UserRepository;)V' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User' method='toBuilder()Lco/com/bancolombia/model/user/User$UserBuilder;' number='6'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User' method='toBuilder()Lco/com/bancolombia/model/user/User$UserBuilder;' number='7'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User' method='toBuilder()Lco/com/bancolombia/model/user/User$UserBuilder;' number='8'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User' method='toBuilder()Lco/com/bancolombia/model/user/User$UserBuilder;' number='9'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User' method='toBuilder()Lco/com/bancolombia/model/user/User$UserBuilder;' number='2'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User' method='toBuilder()Lco/com/bancolombia/model/user/User$UserBuilder;' number='3'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User$UserBuilder' method='email(Ljava/lang/String;)Lco/com/bancolombia/model/user/User$UserBuilder;' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User' method='toBuilder()Lco/com/bancolombia/model/user/User$UserBuilder;' number='4'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User' method='toBuilder()Lco/com/bancolombia/model/user/User$UserBuilder;' number='5'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='19'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.gateways.UserRepository$MockitoMock$7eZPBgS1' method='saveUser(Lco/com/bancolombia/model/user/User;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='18'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User' method='toBuilder()Lco/com/bancolombia/model/user/User$UserBuilder;' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User' method='toBuilder()Lco/com/bancolombia/model/user/User$UserBuilder;' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.gateways.UserRepository$MockitoMock$7eZPBgS1' method='saveUser(Lco/com/bancolombia/model/user/User;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='setUp()V' number='8'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='11'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='setUp()V' number='7'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='10'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='13'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.gateways.UserRepository$MockitoMock$7eZPBgS1' method='setMockitoInterceptor(Lorg/mockito/internal/creation/bytebuddy/access/MockMethodInterceptor;)V' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='12'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='setUp()V' number='4'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='15'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='setUp()V' number='3'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='14'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='setUp()V' number='6'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='17'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='setUp()V' number='5'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='16'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='&lt;init&gt;()V' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='setUp()V' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='3'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User$UserBuilder' method='&lt;init&gt;()V' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='&lt;init&gt;()V' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='2'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='setUp()V' number='2'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='5'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='setUp()V' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='4'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='7'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='6'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='9'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User$UserBuilder' method='build()Lco/com/bancolombia/model/user/User;' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='8'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User$UserBuilder' method='build()Lco/com/bancolombia/model/user/User;' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User$UserBuilder' method='address(Ljava/lang/String;)Lco/com/bancolombia/model/user/User$UserBuilder;' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User' method='getEmail()Ljava/lang/String;' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryAtUpperLimit()V' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='saveUser(Lco/com/bancolombia/model/user/User;)Lreactor/core/publisher/Mono;' number='9'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='saveUser(Lco/com/bancolombia/model/user/User;)Lreactor/core/publisher/Mono;' number='10'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='saveUser(Lco/com/bancolombia/model/user/User;)Lreactor/core/publisher/Mono;' number='11'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='saveUser(Lco/com/bancolombia/model/user/User;)Lreactor/core/publisher/Mono;' number='12'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User' method='builder()Lco/com/bancolombia/model/user/User$UserBuilder;' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User' method='builder()Lco/com/bancolombia/model/user/User$UserBuilder;' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User$UserBuilder' method='&lt;init&gt;()V' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;)V' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;)V' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.gateways.UserRepository$MockitoMock$7eZPBgS1' method='&lt;clinit&gt;()V' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User$UserBuilder' method='dateOfBirth(Ljava/time/LocalDate;)Lco/com/bancolombia/model/user/User$UserBuilder;' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User$UserBuilder' method='phoneNumber(Ljava/lang/String;)Lco/com/bancolombia/model/user/User$UserBuilder;' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.User' method='getBaseSalary()Ljava/lang/Double;' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.gateways.UserRepository$MockitoMock$7eZPBgS1' method='&lt;clinit&gt;()V' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.gateways.UserRepository$MockitoMock$7eZPBgS1' method='&lt;clinit&gt;()V' number='2'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.gateways.UserRepository$MockitoMock$7eZPBgS1' method='&lt;clinit&gt;()V' number='3'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.user.gateways.UserRepository$MockitoMock$7eZPBgS1' method='&lt;clinit&gt;()V' number='4'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryAtUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailAlreadyExists()V' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailAlreadyExists()V' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailAlreadyExists()V' number='3'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailAlreadyExists()V' number='2'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailAlreadyExists()V' number='5'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailAlreadyExists()V' number='4'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailAlreadyExists()V' number='7'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailAlreadyExists()V' number='6'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='lambda$saveUser$0(Lco/com/bancolombia/model/user/User;Ljava/lang/Boolean;)Lreactor/core/publisher/Mono;' number='2'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='lambda$saveUser$0(Lco/com/bancolombia/model/user/User;Ljava/lang/Boolean;)Lreactor/core/publisher/Mono;' number='4'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='lambda$saveUser$0(Lco/com/bancolombia/model/user/User;Ljava/lang/Boolean;)Lreactor/core/publisher/Mono;' number='3'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailAlreadyExists()V' number='9'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailAlreadyExists()V' number='8'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailAlreadyExists()V' number='10'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.exceptions.ValidateException' method='&lt;init&gt;(Ljava/lang/String;)V' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.exceptions.ValidateException' method='&lt;init&gt;(Ljava/lang/String;)V' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='lambda$emailAlreadyExists$2(Ljava/lang/Throwable;)Z' number='4'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='lambda$emailAlreadyExists$2(Ljava/lang/Throwable;)Z' number='6'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='lambda$emailAlreadyExists$2(Ljava/lang/Throwable;)Z' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='lambda$emailAlreadyExists$2(Ljava/lang/Throwable;)Z' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='lambda$emailAlreadyExists$2(Ljava/lang/Throwable;)Z' number='2'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='lambda$emailAlreadyExists$2(Ljava/lang/Throwable;)Z' number='3'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailAlreadyExists()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailValid()V' number='8'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailValid()V' number='9'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailValid()V' number='10'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailValid()V' number='11'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailValid()V' number='12'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailValid()V' number='13'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailValid()V' number='14'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailValid()V' number='15'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailValid()V' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailValid()V' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailValid()V' number='2'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailValid()V' number='3'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailValid()V' number='4'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailValid()V' number='5'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailValid()V' number='6'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailValid()V' number='7'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailValid()V' number='16'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailValid()V' number='17'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='emailValid()V' number='18'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:emailValid()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryIsNegative()V' number='2'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryIsNegative()V' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryIsNegative()V' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryIsNegative()V' number='6'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryIsNegative()V' number='5'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryIsNegative()V' number='4'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryIsNegative()V' number='3'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='saveUser(Lco/com/bancolombia/model/user/User;)Lreactor/core/publisher/Mono;' number='6'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='saveUser(Lco/com/bancolombia/model/user/User;)Lreactor/core/publisher/Mono;' number='7'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCase' method='saveUser(Lco/com/bancolombia/model/user/User;)Lreactor/core/publisher/Mono;' number='8'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='lambda$salaryIsNegative$0(Ljava/lang/Throwable;)Z' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='lambda$salaryIsNegative$0(Ljava/lang/Throwable;)Z' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='lambda$salaryIsNegative$0(Ljava/lang/Throwable;)Z' number='2'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='lambda$salaryIsNegative$0(Ljava/lang/Throwable;)Z' number='3'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='lambda$salaryIsNegative$0(Ljava/lang/Throwable;)Z' number='4'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='lambda$salaryIsNegative$0(Ljava/lang/Throwable;)Z' number='6'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryIsNegative()V' number='8'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryIsNegative()V' number='7'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryIsNegative()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='successfulUserSave()V' number='14'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='successfulUserSave()V' number='15'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='successfulUserSave()V' number='4'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='successfulUserSave()V' number='5'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='successfulUserSave()V' number='2'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='successfulUserSave()V' number='3'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='successfulUserSave()V' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='successfulUserSave()V' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='successfulUserSave()V' number='12'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='successfulUserSave()V' number='13'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='successfulUserSave()V' number='10'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='successfulUserSave()V' number='11'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='successfulUserSave()V' number='8'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='successfulUserSave()V' number='9'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='successfulUserSave()V' number='6'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='successfulUserSave()V' number='7'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:successfulUserSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='lambda$salaryOverUpperLimit$1(Ljava/lang/Throwable;)Z' number='6'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='lambda$salaryOverUpperLimit$1(Ljava/lang/Throwable;)Z' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='lambda$salaryOverUpperLimit$1(Ljava/lang/Throwable;)Z' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='lambda$salaryOverUpperLimit$1(Ljava/lang/Throwable;)Z' number='4'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='lambda$salaryOverUpperLimit$1(Ljava/lang/Throwable;)Z' number='2'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='lambda$salaryOverUpperLimit$1(Ljava/lang/Throwable;)Z' number='3'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryOverUpperLimit()V' number='0'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryOverUpperLimit()V' number='4'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryOverUpperLimit()V' number='3'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryOverUpperLimit()V' number='2'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryOverUpperLimit()V' number='1'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryOverUpperLimit()V' number='8'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryOverUpperLimit()V' number='7'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryOverUpperLimit()V' number='6'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest' method='salaryOverUpperLimit()V' number='5'><tests>
+<test name='co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest.[engine:junit-jupiter]/[class:co.com.bancolombia.usecase.registreruser.RegistrerUserUseCaseTest]/[method:salaryOverUpperLimit()]'/>
+</tests>
+</block>
+</coverage>
