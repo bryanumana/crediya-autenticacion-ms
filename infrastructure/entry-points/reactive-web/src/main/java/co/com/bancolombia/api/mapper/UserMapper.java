@@ -3,27 +3,33 @@ package co.com.bancolombia.api.mapper;
 import co.com.bancolombia.api.dto.UserRequestDTO;
 import co.com.bancolombia.api.dto.UserResponseDTO;
 import co.com.bancolombia.model.user.User;
+import org.springframework.web.bind.annotation.Mapping;
 
-public class UserMapper {
 
-    public static User toEntity(UserRequestDTO dto) {
-        return User.builder()
-                .name(dto.getName())
-                .lastName(dto.getLastName())
-                .dateOfBirth(dto.getDateOfBirth())
-                .address(dto.getAddress())
-                .phoneNumber(dto.getPhoneNumber())
-                .email(dto.getEmail())
-                .baseSalary(dto.getBaseSalary())
-                .build();
+public interface UserMapper {
+
+    static User toEntity(UserRequestDTO dto) {
+        User user = new User();
+        user.setName(dto.getName());
+        user.setLastName(dto.getLastName());
+        user.setEmail(dto.getEmail());
+        user.setBaseSalary(dto.getBaseSalary());
+        user.setDateOfBirth(dto.getDateOfBirth());
+        user.setAddress(dto.getAddress());
+        user.setPhoneNumber(dto.getPhoneNumber());
+        return user;
     }
 
-    public static UserResponseDTO toResponse(User user) {
+    static UserResponseDTO toResponse(User user) {
         return new UserResponseDTO(
                 user.getId(),
                 user.getName(),
                 user.getLastName(),
-                user.getEmail()
+                user.getEmail(),
+                user.getDateOfBirth(),
+                user.getAddress(),
+                user.getPhoneNumber(),
+                user.getBaseSalary()
         );
     }
 }

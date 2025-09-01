@@ -1,20 +1,21 @@
 package co.com.bancolombia.api.dto;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-@Setter
-@Getter
+import java.time.LocalDate;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class UserResponseDTO {
     private String id;
     private String name;
     private String lastName;
     private String email;
-
-    public UserResponseDTO(String id, String name, String lastName, String email) {
-        this.id = id;
-        this.name = name;
-        this.lastName = lastName;
-        this.email = email;
-    }
+    private LocalDate dateOfBirth;
+    private String address;
+    private String phoneNumber;
+    private Double baseSalary;
 }

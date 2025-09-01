@@ -1,50 +1,38 @@
 package co.com.bancolombia.api.exception;
 
-import co.com.bancolombia.model.exceptions.DatabaseConnectionException;
-import co.com.bancolombia.model.exceptions.ValidationException;
+import co.com.bancolombia.model.exceptions.ValidateException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+import org.springframework.web.bind.support.WebExchangeBindException;
 
-import java.io.Serializable;
 import java.util.Map;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
-    private static final Logger log = LoggerFactory.getLogger(GlobalExceptionHandler.class);
+    private static final Logger logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
-    @ExceptionHandler(ValidationException.class)
-    public ResponseEntity<Map<String, Serializable>> handleValidationException(ValidationException ex) {
-        log.warn("Error de validación: {}", ex.getMessage());
-        return ResponseEntity.status(HttpStatus.BAD_REQUEST)
-                .body(Map.of(
-                        "status", HttpStatus.BAD_REQUEST.value(),
-                        "message", ex.getMessage()
-                ));
+    @ExceptionHandler(WebExchangeBindException.class)
+    public ResponseEntity<Map<String, Object>> handleValidation(WebExchangeBindException ex) {
+        String msg = ex.getFieldErrors().stream().findFirst().map(FieldError::getDefaultMessage).orElse("Error de validación de datos :");
+        logger.warn("Error de validación de datos : {}", msg);
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(Map.of("message", msg));
     }
 
-    @ExceptionHandler(DatabaseConnectionException.class)
-    public ResponseEntity<Map<String, Serializable>> handleValidationException(DatabaseConnectionException ex) {
-        log.warn("Error de conexión a la base de datos: {}", ex.getMessage());
-        return ResponseEntity.status(HttpStatus.BAD_REQUEST)
-                .body(Map.of(
-                        "status", HttpStatus.INTERNAL_SERVER_ERROR.value(),
-                        "message", "No se pudo establecer conexión con la base de datos"
-                ));
+    @ExceptionHandler(ValidateException.class)
+    public ResponseEntity<Map<String, Object>> handleCustomValidation(ValidateException ex) {
+        logger.error("Error de validación de negocio : {}", ex.getMessage());
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(Map.of("message", ex.getMessage()));
     }
 
-    @ExceptionHandler(Exception.class)
-    public ResponseEntity<Map<String, Object>> handleGeneral(Exception ex) {
-        log.error("Error inesperado: ", ex);
-        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
-                .body(Map.of(
-                        "status", 500,
-                        "message", "Ocurrió un error inesperado en el servidor"));
+    @ExceptionHandler(Throwable.class)
+    public ResponseEntity<Map<String, Object>> handleAny(Throwable ex) {
+        logger.error("Error interno : {}", ex.getMessage());
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(Map.of("message", ex.getMessage()));
     }
-
-
 }

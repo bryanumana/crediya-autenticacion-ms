@@ -1,4 +1,5 @@
 package co.com.bancolombia.model.user;
+
 import lombok.Builder;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -22,7 +23,4 @@ public class User {
     private String phoneNumber;
     private String email;
     private Double baseSalary;
-
-    public User(Object o, String john, String doe, String mail, double v) {
-    }
 }
