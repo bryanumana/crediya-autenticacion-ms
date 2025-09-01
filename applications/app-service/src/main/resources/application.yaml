@@ -28,7 +28,7 @@ adapters:
     port: 5432
     username: "postgres"
     password: 123456
-    database: "autenticacion"
+    database: "crediyaDB"
 springdoc:
   swagger-ui:
     path: /swagger-ui.html
