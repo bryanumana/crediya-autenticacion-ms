@@ -1,0 +1,7 @@
+package co.com.bancolombia.model.exceptions;
+
+public class ValidateException extends RuntimeException {
+    public ValidateException(String message) {
+        super(message);
+    }
+}
